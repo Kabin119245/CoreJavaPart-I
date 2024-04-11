@@ -4,4 +4,10 @@ public class string_basic {
         String name = "Kabin";
         System.out.println("Hello, " + name);
     }
+
+    //mutable string and immmutable string
+    //BY DEFAULT string are immutable
+    //String name = "Kabin"; this is immutable string
+    
+
 }
