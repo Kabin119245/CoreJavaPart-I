@@ -26,7 +26,11 @@ public class encapsulation_eg {
     public static void main(String[] args) {
         Human obj = new Human();
         obj.setAge(23);
+
         obj.setName("Kabin Giri");
+
+        obj.setName("Kabin");
+
         System.out.println(obj.getName() + " " + obj.getAge());
 
     }
