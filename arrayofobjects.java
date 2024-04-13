@@ -38,6 +38,15 @@ public class arrayofobjects {
             System.out.println("Marks: " + students[i].marks);
             
         }
+        System.out.println();
+        System.out.println("Using enhanced for loop");
+        System.out.println();
+        //for (int n : nums) 
+        for (Student stud : students) {
+            System.out.println("Name: "+ stud.name);
+            System.out.println("Roll No: " + stud.rollno);
+            System.out.println("Marks: " + stud.marks);
+        }
     }
     
 }

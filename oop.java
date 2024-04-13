@@ -1,9 +1,10 @@
 class Calculator {
     //variables
-    int a;
+    int a; // a is part of heap
     //methods
 
     public int adder(int n1, int n2) {
+        //local variables n1 and n2 are part of stack
         System.out.println("I am called");
         return (n1 + n2);
     }

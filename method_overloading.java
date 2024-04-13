@@ -1,4 +1,4 @@
-class Calculator {
+class Calculator1 {
     public int add(int a, int b) {
         return a + b;
     }
@@ -17,7 +17,7 @@ class Calculator {
 public class method_overloading {
     public static void main(String[] args) {
 
-        Calculator calc = new Calculator();
+        Calculator1 calc = new Calculator1(); //obj is reference variable
         double r1 = calc.add(5.3, 2);
         System.out.println(r1);
         int r2 = calc.add(5,2);
