@@ -6,6 +6,8 @@ class Human {
     }
     public void setAge(int age) {
         this.age = age;
+        //inside methods there is preference to local variables
+        //"this" is a keyword that represnt current object
     }
     public String getName() {
         return name;
@@ -16,9 +18,6 @@ class Human {
 
 
 }
-
-
-
 
 
 public class getter_setters {
